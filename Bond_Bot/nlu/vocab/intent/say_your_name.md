@@ -1,0 +1,8 @@
+- what is your name
+- who are you
+- what should I call you
+- give me your name
+- tell me your name
+- what name do you go by
+- what name should I use for you
+- what name to you use

@@ -1,0 +1,6 @@
+- what are you doing?
+- what is your mission
+- what is your current mission
+- what are you doing now?
+- what is this mission
+- what is your mission at this point in time

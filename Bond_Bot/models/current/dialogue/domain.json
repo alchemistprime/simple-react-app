@@ -1,0 +1,28 @@
+{
+  "states": [
+    "intent_cancel_mission",
+    "intent_current_mission",
+    "intent_describe",
+    "intent_frustrated",
+    "intent_goodbye",
+    "intent_hello",
+    "intent_say_your_name",
+    "intent_start_mission",
+    "intent_store_name",
+    "entity_user_name",
+    "entity_mission_destination",
+    "entity_mission_objective",
+    "entity_location",
+    "entity_person",
+    "slot_location_0",
+    "slot_person_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_hello",
+    "prev_utter_mission_cancelled",
+    "prev_utter_goodbye",
+    "prev_utter_ease_tension",
+    "prev_utter_my_name_is"
+  ]
+}

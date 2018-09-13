@@ -1,0 +1,90 @@
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'nlu/models/default/default/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'nlu/models/default/default/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'nlu/models/default/default/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Failed to fill utterance template '{'text': '{user_name}.  Let me tell you the secret of the world.'}'. Tried to replace 'user_name' but could not find a value for it. There is no slot with this name nor did you pass the value explicitly when calling the template. Return template without filling the template. 
+Traceback (most recent call last):
+  File "/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/rasa_core/nlg/template.py", line 77, in _fill_template_text
+    template["text"] = template["text"].format(**template_vars)
+KeyError: 'user_name'
+Failed to fill utterance template '{'text': '{user_name}.  Let me tell you the secret of the world.'}'. Tried to replace 'user_name' but could not find a value for it. There is no slot with this name nor did you pass the value explicitly when calling the template. Return template without filling the template. 
+Traceback (most recent call last):
+  File "/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/rasa_core/nlg/template.py", line 77, in _fill_template_text
+    template["text"] = template["text"].format(**template_vars)
+KeyError: 'user_name'
+Failed to fill utterance template '{'text': '{user_name}.  Let me tell you the secret of the world.'}'. Tried to replace 'user_name' but could not find a value for it. There is no slot with this name nor did you pass the value explicitly when calling the template. Return template without filling the template. 
+Traceback (most recent call last):
+  File "/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/rasa_core/nlg/template.py", line 77, in _fill_template_text
+    template["text"] = template["text"].format(**template_vars)
+KeyError: 'user_name'
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'nlu/models/default/default/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'nlu/models/default/default/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Failed to fill utterance template '{'text': '{user_name}.  Let me tell you the secret of the world.'}'. Tried to replace 'user_name' but could not find a value for it. There is no slot with this name nor did you pass the value explicitly when calling the template. Return template without filling the template. 
+Traceback (most recent call last):
+  File "/home/alchemistprime/anaconda3/envs/rasa/lib/python3.6/site-packages/rasa_core/nlg/template.py", line 77, in _fill_template_text
+    template["text"] = template["text"].format(**template_vars)
+KeyError: 'user_name'

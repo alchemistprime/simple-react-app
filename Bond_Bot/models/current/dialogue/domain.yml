@@ -1,0 +1,73 @@
+%YAML 1.1
+---
+action_factory: null
+action_names:
+- utter_hello
+- utter_mission_cancelled
+- utter_goodbye
+- utter_ease_tension
+- utter_my_name_is
+actions:
+- utter_hello
+- utter_mission_cancelled
+- utter_goodbye
+- utter_ease_tension
+- utter_my_name_is
+config:
+  store_entities_as_slots: true
+entities:
+- user_name
+- mission_destination
+- mission_objective
+- location
+- person
+intents:
+- cancel_mission:
+    use_entities: true
+- current_mission:
+    use_entities: true
+- describe:
+    use_entities: true
+- frustrated:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- hello:
+    use_entities: true
+- say_your_name:
+    use_entities: true
+- start_mission:
+    use_entities: true
+- store_name:
+    use_entities: true
+slots:
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  person:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ease_tension:
+  - text: I admire your courage...
+  - text: Well, we have had our kicks
+  - text: Perhaps you would like a drink.  Shaken.... not stirred.
+  - text: This never happened to the other fellow
+  utter_goodbye:
+  - text: I think we understand one another
+  - text: Ok, I'll just go take the Aston Martin out for a spin then.
+  - text: I am invincible.
+  - text: Then you have my resignation, sir.
+  utter_hello:
+  - text: I never left
+  - text: We have some unfinished business
+  - text: I always wondered how I would feel when I saw you again
+  - text: '{user_name}.  Let me tell you the secret of the world.'
+  utter_mission_cancelled:
+  - text: Mission Cancelled!  Now... I have some unfinished business to attend to.
+  - text: I'll call you back...
+  - text: Message received.  Loud and clear.
+  utter_my_name_is:
+  - text: The name's Bond.  James Bond.
+  - text: I believe we haven't be properly introduced.  my name is Bond... James Bond.
+  - text: Bond. James Bond.

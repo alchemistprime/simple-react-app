@@ -1,0 +1,10 @@
+- you are stupid
+- I can't stand you
+- shut up
+- you're driving me nuts
+- you are totally frustrating
+- you're dumb
+- This is ridiculous
+- Seriously!?
+- you're driving me up the wall
+- you are the most frustrating person
